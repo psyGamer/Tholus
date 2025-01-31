@@ -33,13 +33,13 @@ public class Program
         });
     }
 
-    [Command("add", Description = "Add an existing installation")]
+    [Command("add", Description = "Add an existing installation to the list Tholus knows about")]
     public static void Add(string name, string path)
     {
         System.Console.WriteLine($"TODO: Add new install: '{name}' '{path}'");
     }
 
-    [Command("remove", Description = "Remove an installation")]
+    [Command("remove", Description = "Remove an installation from the list Tholus knows about")]
     public static void Remove(string name)
     {
         System.Console.WriteLine($"TODO: Remove install: '{name}'");
@@ -57,13 +57,13 @@ public class Program
         System.Console.WriteLine($"TODO: Install Everest: '{name}' '{everestVersion}'");
     }
 
-    [Command("uninstall", Description = "Uninstalls Everest from an installation")]
+    [Command("uninstall", Description = "Uninstall Everest from an installation")]
     public static void UninstallEverest(string name)
     {
         System.Console.WriteLine($"TODO: Uninstall Everest: '{name}'");
     }
 
-    [Command("launch", Description = "Launches an installation")]
+    [Command("launch", Description = "Launch an installation")]
     public static void Launch(string name, bool vanilla)
     {
         System.Console.WriteLine($"TODO: Launch install: '{name}' Vanilla: {vanilla}");
